@@ -1,0 +1,11 @@
+# Testing Notes
+
+## Tests to run:
+1. Test with original images
+2. Test with augmented images
+3. Test with images from different lighting
+4. Test authentication threshold
+
+## Results so far:
+- Random Forest seems to work better
+- Need to check if overfitting
