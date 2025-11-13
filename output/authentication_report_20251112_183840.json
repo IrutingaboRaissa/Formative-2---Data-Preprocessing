@@ -1,0 +1,167 @@
+{
+  "session_id": "ac40100e10e2b985",
+  "total_attempts": 5,
+  "successful_authentications": 3,
+  "failed_authentications": 2,
+  "success_rate": 0.6,
+  "average_confidence": 0.76349,
+  "configuration": {
+    "face_confidence_threshold": 0.85,
+    "voice_confidence_threshold": 0.8,
+    "combined_confidence_threshold": 0.82,
+    "max_attempts": 3,
+    "attempt_timeout": 300,
+    "security_level": "HIGH",
+    "logging_enabled": true
+  },
+  "attempts": [
+    {
+      "session_id": "ac40100e10e2b985",
+      "timestamp": "2025-11-12T18:38:40.862953",
+      "user_identifier": "Member3",
+      "authenticated": true,
+      "face_verification": {
+        "success": true,
+        "confidence": 0.9431,
+        "message": "Facial recognition successful (confidence: 94.31%)"
+      },
+      "voice_verification": {
+        "success": true,
+        "confidence": 0.9343,
+        "message": "Voice verification successful (confidence: 93.43%)"
+      },
+      "combined_confidence": 0.9387000000000001,
+      "products": {
+        "top_products": [
+          "Marketing Analytics Tool",
+          "Design Software",
+          "Social Media Manager"
+        ],
+        "categories": [
+          "Marketing Tools",
+          "Software"
+        ],
+        "predicted_purchase_probability": 0.79
+      },
+      "status": "AUTHENTICATED",
+      "user_info": {
+        "user_id": "USR003",
+        "name": "Carol White",
+        "email": "member3@company.com",
+        "department": "Marketing"
+      }
+    },
+    {
+      "session_id": "ac40100e10e2b985",
+      "timestamp": "2025-11-12T18:38:40.881619",
+      "user_identifier": "Member2",
+      "authenticated": true,
+      "face_verification": {
+        "success": true,
+        "confidence": 0.9567,
+        "message": "Facial recognition successful (confidence: 95.67%)"
+      },
+      "voice_verification": {
+        "success": true,
+        "confidence": 0.9543,
+        "message": "Voice verification successful (confidence: 95.43%)"
+      },
+      "combined_confidence": 0.9555,
+      "products": {
+        "top_products": [
+          "Cloud Storage",
+          "Software License",
+          "Security Suite"
+        ],
+        "categories": [
+          "Software",
+          "Services"
+        ],
+        "predicted_purchase_probability": 0.91
+      },
+      "status": "AUTHENTICATED",
+      "user_info": {
+        "user_id": "USR002",
+        "name": "Bob Smith",
+        "email": "member2@company.com",
+        "department": "Product"
+      }
+    },
+    {
+      "session_id": "ac40100e10e2b985",
+      "timestamp": "2025-11-12T18:38:40.898363",
+      "user_identifier": "UnknownUser",
+      "authenticated": false,
+      "face_verification": {
+        "success": false,
+        "confidence": 0.3227,
+        "message": "Facial recognition failed (confidence: 32.27% < 85.00%)"
+      },
+      "voice_verification": {
+        "success": false,
+        "confidence": 0.2968,
+        "message": "Voice verification failed (confidence: 29.68% < 80.00%)"
+      },
+      "combined_confidence": 0.30974999999999997,
+      "products": null,
+      "status": "AUTHENTICATION_FAILED",
+      "failure_reason": "Facial recognition verification failed"
+    },
+    {
+      "session_id": "ac40100e10e2b985",
+      "timestamp": "2025-11-12T18:38:40.913996",
+      "user_identifier": "SpoofAttempt_Member1",
+      "authenticated": false,
+      "face_verification": {
+        "success": false,
+        "confidence": 0.7397,
+        "message": "Facial recognition failed (confidence: 73.97% < 85.00%)"
+      },
+      "voice_verification": {
+        "success": false,
+        "confidence": 0.6079,
+        "message": "Voice verification failed (confidence: 60.79% < 80.00%)"
+      },
+      "combined_confidence": 0.6738,
+      "products": null,
+      "status": "AUTHENTICATION_FAILED",
+      "failure_reason": "Facial recognition verification failed"
+    },
+    {
+      "session_id": "ac40100e10e2b985",
+      "timestamp": "2025-11-12T18:38:40.933565",
+      "user_identifier": "Member2",
+      "authenticated": true,
+      "face_verification": {
+        "success": true,
+        "confidence": 0.9328,
+        "message": "Facial recognition successful (confidence: 93.28%)"
+      },
+      "voice_verification": {
+        "success": true,
+        "confidence": 0.9466,
+        "message": "Voice verification successful (confidence: 94.66%)"
+      },
+      "combined_confidence": 0.9397,
+      "products": {
+        "top_products": [
+          "Cloud Storage",
+          "Software License",
+          "Security Suite"
+        ],
+        "categories": [
+          "Software",
+          "Services"
+        ],
+        "predicted_purchase_probability": 0.91
+      },
+      "status": "AUTHENTICATED",
+      "user_info": {
+        "user_id": "USR002",
+        "name": "Bob Smith",
+        "email": "member2@company.com",
+        "department": "Product"
+      }
+    }
+  ]
+}

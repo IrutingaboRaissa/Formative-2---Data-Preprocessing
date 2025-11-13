@@ -1,0 +1,163 @@
+{
+  "session_id": "3051a982bc59fbd3",
+  "total_attempts": 4,
+  "successful_authentications": 4,
+  "failed_authentications": 0,
+  "success_rate": 1.0,
+  "average_confidence": 0.9278375,
+  "configuration": {
+    "face_confidence_threshold": 0.85,
+    "voice_confidence_threshold": 0.8,
+    "combined_confidence_threshold": 0.82,
+    "max_attempts": 3,
+    "attempt_timeout": 300,
+    "security_level": "HIGH",
+    "logging_enabled": true
+  },
+  "attempts": [
+    {
+      "session_id": "3051a982bc59fbd3",
+      "timestamp": "2025-11-13T12:37:13.673136",
+      "user_identifier": "Member1",
+      "authenticated": true,
+      "face_verification": {
+        "success": true,
+        "confidence": 0.9687,
+        "message": "Facial recognition successful (confidence: 96.87%)"
+      },
+      "voice_verification": {
+        "success": true,
+        "confidence": 0.8855,
+        "message": "Voice verification successful (confidence: 88.55%)"
+      },
+      "combined_confidence": 0.9271,
+      "products": {
+        "top_products": [
+          "Laptop",
+          "Monitor",
+          "Keyboard"
+        ],
+        "categories": [
+          "Electronics",
+          "Accessories"
+        ],
+        "predicted_purchase_probability": 0.87
+      },
+      "status": "AUTHENTICATED",
+      "user_info": {
+        "user_id": "USR001",
+        "name": "Wengelawit Ayalew Solomon",
+        "email": "member1@company.com",
+        "department": "Engineering"
+      }
+    },
+    {
+      "session_id": "3051a982bc59fbd3",
+      "timestamp": "2025-11-13T12:37:13.689727",
+      "user_identifier": "Member2",
+      "authenticated": true,
+      "face_verification": {
+        "success": true,
+        "confidence": 0.9899,
+        "message": "Facial recognition successful (confidence: 98.99%)"
+      },
+      "voice_verification": {
+        "success": true,
+        "confidence": 0.9158,
+        "message": "Voice verification successful (confidence: 91.58%)"
+      },
+      "combined_confidence": 0.95285,
+      "products": {
+        "top_products": [
+          "Cloud Storage",
+          "Software License",
+          "Security Suite"
+        ],
+        "categories": [
+          "Software",
+          "Services"
+        ],
+        "predicted_purchase_probability": 0.91
+      },
+      "status": "AUTHENTICATED",
+      "user_info": {
+        "user_id": "USR002",
+        "name": "Elyse Marie Uyiringiye",
+        "email": "member2@company.com",
+        "department": "Product"
+      }
+    },
+    {
+      "session_id": "3051a982bc59fbd3",
+      "timestamp": "2025-11-13T12:37:13.700328",
+      "user_identifier": "Member3",
+      "authenticated": true,
+      "face_verification": {
+        "success": true,
+        "confidence": 0.9312,
+        "message": "Facial recognition successful (confidence: 93.12%)"
+      },
+      "voice_verification": {
+        "success": true,
+        "confidence": 0.9168,
+        "message": "Voice verification successful (confidence: 91.68%)"
+      },
+      "combined_confidence": 0.9239999999999999,
+      "products": {
+        "top_products": [
+          "Marketing Analytics Tool",
+          "Design Software",
+          "Social Media Manager"
+        ],
+        "categories": [
+          "Marketing Tools",
+          "Software"
+        ],
+        "predicted_purchase_probability": 0.79
+      },
+      "status": "AUTHENTICATED",
+      "user_info": {
+        "user_id": "USR003",
+        "name": "Jean Jacques JABO",
+        "email": "member3@company.com",
+        "department": "Marketing"
+      }
+    },
+    {
+      "session_id": "3051a982bc59fbd3",
+      "timestamp": "2025-11-13T12:37:13.708328",
+      "user_identifier": "Member4",
+      "authenticated": true,
+      "face_verification": {
+        "success": true,
+        "confidence": 0.9227,
+        "message": "Facial recognition successful (confidence: 92.27%)"
+      },
+      "voice_verification": {
+        "success": true,
+        "confidence": 0.8921,
+        "message": "Voice verification successful (confidence: 89.21%)"
+      },
+      "combined_confidence": 0.9074,
+      "products": {
+        "top_products": [
+          "CRM System",
+          "Sales Dashboard",
+          "Contact Manager"
+        ],
+        "categories": [
+          "Business Tools",
+          "Software"
+        ],
+        "predicted_purchase_probability": 0.85
+      },
+      "status": "AUTHENTICATED",
+      "user_info": {
+        "user_id": "USR004",
+        "name": "Raissa Irutingabo",
+        "email": "member4@company.com",
+        "department": "Sales"
+      }
+    }
+  ]
+}

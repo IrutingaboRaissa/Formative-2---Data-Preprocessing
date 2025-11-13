@@ -1,0 +1,127 @@
+{
+  "session_id": "f8a61cffa9f35571",
+  "total_attempts": 3,
+  "successful_authentications": 3,
+  "failed_authentications": 0,
+  "success_rate": 1.0,
+  "average_confidence": 0.96735,
+  "configuration": {
+    "face_confidence_threshold": 0.85,
+    "voice_confidence_threshold": 0.8,
+    "combined_confidence_threshold": 0.82,
+    "max_attempts": 3,
+    "attempt_timeout": 300,
+    "security_level": "HIGH",
+    "logging_enabled": true
+  },
+  "attempts": [
+    {
+      "session_id": "f8a61cffa9f35571",
+      "timestamp": "2025-11-13T11:27:47.915997",
+      "user_identifier": "Member1",
+      "authenticated": true,
+      "face_verification": {
+        "success": true,
+        "confidence": 0.9786,
+        "message": "Facial recognition successful (confidence: 97.86%)"
+      },
+      "voice_verification": {
+        "success": true,
+        "confidence": 0.9301,
+        "message": "Voice verification successful (confidence: 93.01%)"
+      },
+      "combined_confidence": 0.95435,
+      "products": {
+        "top_products": [
+          "Laptop",
+          "Monitor",
+          "Keyboard"
+        ],
+        "categories": [
+          "Electronics",
+          "Accessories"
+        ],
+        "predicted_purchase_probability": 0.87
+      },
+      "status": "AUTHENTICATED",
+      "user_info": {
+        "user_id": "USR001",
+        "name": "Wengelawit Ayalew Solomon",
+        "email": "member1@company.com",
+        "department": "Engineering"
+      }
+    },
+    {
+      "session_id": "f8a61cffa9f35571",
+      "timestamp": "2025-11-13T11:27:47.928619",
+      "user_identifier": "Member1",
+      "authenticated": true,
+      "face_verification": {
+        "success": true,
+        "confidence": 0.9836,
+        "message": "Facial recognition successful (confidence: 98.36%)"
+      },
+      "voice_verification": {
+        "success": true,
+        "confidence": 0.9787,
+        "message": "Voice verification successful (confidence: 97.87%)"
+      },
+      "combined_confidence": 0.98115,
+      "products": {
+        "top_products": [
+          "Laptop",
+          "Monitor",
+          "Keyboard"
+        ],
+        "categories": [
+          "Electronics",
+          "Accessories"
+        ],
+        "predicted_purchase_probability": 0.87
+      },
+      "status": "AUTHENTICATED",
+      "user_info": {
+        "user_id": "USR001",
+        "name": "Wengelawit Ayalew Solomon",
+        "email": "member1@company.com",
+        "department": "Engineering"
+      }
+    },
+    {
+      "session_id": "f8a61cffa9f35571",
+      "timestamp": "2025-11-13T11:27:47.941021",
+      "user_identifier": "Member2",
+      "authenticated": true,
+      "face_verification": {
+        "success": true,
+        "confidence": 0.9626,
+        "message": "Facial recognition successful (confidence: 96.26%)"
+      },
+      "voice_verification": {
+        "success": true,
+        "confidence": 0.9705,
+        "message": "Voice verification successful (confidence: 97.05%)"
+      },
+      "combined_confidence": 0.96655,
+      "products": {
+        "top_products": [
+          "Cloud Storage",
+          "Software License",
+          "Security Suite"
+        ],
+        "categories": [
+          "Software",
+          "Services"
+        ],
+        "predicted_purchase_probability": 0.91
+      },
+      "status": "AUTHENTICATED",
+      "user_info": {
+        "user_id": "USR002",
+        "name": "Elyse Marie Uyiringiye",
+        "email": "member2@company.com",
+        "department": "Product"
+      }
+    }
+  ]
+}
